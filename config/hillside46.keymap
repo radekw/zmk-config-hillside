@@ -16,7 +16,9 @@
 #define NAV_L 3
 #define FN_L  4
 
-#include "hillside46.h"
+#define A_C_D LA(LC(DEL))
+#define U_RDO LS(LG(Z))
+
 #include "macros.dtsi"
 #include "hillside46.combos.dtsi"
 
@@ -92,9 +94,9 @@
 
         nav_layer {
             bindings = <
-&none  &none      &kp UP     &kp TAB    &kp LGUI   &none                    &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &none      &kp PSCRN
-&none  &kp LEFT   &kp DOWN   &kp RIGHT  &none      &none                    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none      &kp A_C_D
-&none  &kp U_UND  &kp U_CUT  &kp U_CPY  &kp U_PST  &kp U_RDO  &none  &none  &kp U_UND  &kp U_CUT  &kp U_CPY  &kp U_PST  &kp U_RDO  &none
+&none      &none      &kp UP     &kp TAB    &kp LGUI   &LG(T)                   &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &none      &kp PSCRN
+&none      &kp LEFT   &kp DOWN   &kp RIGHT  &none      &none                    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none      &kp A_C_D
+&kp LSHFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp U_RDO  &none  &none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp U_RDO  &kp RSHFT
 
 &none  &trans  &trans  &trans  &trans  &trans  &trans  &none
             >;
