@@ -64,7 +64,7 @@
 &kp BSPC   &kp A        &kp S  &kp D  &kp F  &kp G                &kp H  &kp J  &kp K      &kp L    &kp SEMI        &kp SQT
 &kp LSHFT  &hm LCTRL Z  &kp X  &kp C  &kp V  &kp B  &none  &none  &kp N  &kp M  &kp COMMA  &kp DOT  &hm RCTRL FSLH  &mt RSHFT RET
 
-&none  &hm LGUI NAV_L  &kp RET  &hm TAB FN_T  &hm BSPC NUM_L  &kp SPACE  &hm DEL SYM_L  &none
+&none  &lt NAV_L LGUI  &kp RET  &lt FN_T TAB  &lt NUM_L BSPC  &kp SPACE  &lt SYM_L DEL  &none
             >;
         };
         
