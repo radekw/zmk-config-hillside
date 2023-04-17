@@ -16,7 +16,11 @@
 #define NAV_L 3
 #define FN_L  4
 
-#define A_C_D LA(LC(DEL))
+#define MIRYOKU_CLIPBOARD_MAC
+
+#include "hillside46.h"
+#include "macros.dtsi"
+#include "hillside46.combos.dtsi"
 
 &mt {
     tapping-term-ms = <175>;
@@ -60,7 +64,7 @@
 
         default_layer {
             bindings = <
-&kp TAB    &hm LGUI Q   &kp W  &kp E  &kp R  &kp T                &kp Y  &kp U  &kp I      &kp O    &kp P           &kp BSLH
+&kp TAB    &hm LGUI Q   &kp W  &kp E  &kp R  &kp T                &kp Y  &kp U  &kp I      &kp O    &kp P           &hm LALT BSLH
 &kp BSPC   &kp A        &kp S  &kp D  &kp F  &kp G                &kp H  &kp J  &kp K      &kp L    &kp SEMI        &kp SQT
 &kp LSHFT  &hm LCTRL Z  &kp X  &kp C  &kp V  &kp B  &none  &none  &kp N  &kp M  &kp COMMA  &kp DOT  &hm RCTRL FSLH  &mt RSHFT RET
 
@@ -90,9 +94,9 @@
 
         nav_layer {
             bindings = <
-&kp LG(TAB)  &none         &kp UP        &kp TAB     &kp LGUI    &kp PG_UP               &kp HOME    &kp PG_DN     &kp PG_UP     &kp END     &kp C_BRI_UP  &kp PSCRN
-&kp DEL      &kp LEFT      &kp DOWN      &kp RIGHT   &none       &none                   &kp LEFT    &kp DOWN      &kp UP        &kp RIGHT   &kp C_BRI_DN  &kp A_C_D
-&kp K_MUTE   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp C_PP  &none  &none  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT    &kp C_PP
+&kp LG(TAB)  &none         &kp UP        &kp TAB     &kp LGUI    &none                   &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp C_BRI_UP  &kp PSCRN
+&kp DEL      &kp LEFT      &kp DOWN      &kp RIGHT   &none       &none                   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp C_BRI_DN  &kp A_C_D
+&kp K_MUTE   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp C_PP  &none  &none  &kp U_UND  &kp U_CUT  &kp U_CPY  &kp U_PST  &kp U_RDO     &kp C_PP
 
 &none  &trans  &trans  &trans  &trans  &trans  &trans  &none
             >;

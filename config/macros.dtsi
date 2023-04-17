@@ -1,0 +1,11 @@
+/ {
+    macros {
+        ZMK_MACRO(vim_wa,
+            bindings = <&kp COLON &kp W &kp A &kp RET>;
+        )
+        ZMK_MACRO(vim_qa,
+            bindings = <&kp COLON &kp Q &kp A &kp RET>;
+        )
+    };
+};
+

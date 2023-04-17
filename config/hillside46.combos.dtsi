@@ -1,0 +1,61 @@
+#define COMBO(NAME, BINDINGS, KEYPOS, TERM) \
+        combo_##NAME { \
+            timeout-ms = <TERM>; \
+            bindings = <BINDINGS>; \
+            key-positions = <KEYPOS>; \
+            layers = <0 1>; \
+        };
+
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+
+/*                KEY POSITIONS
+  ╭─────────────────────────╮ ╭─────────────────────────╮
+  │  0  1  2  3  4  5       │ │        6  7  8  9 10 11 │
+  │ 12 13 14 15 16 17       │ │       18 19 20 21 22 23 │
+  │ 24 25 26 27 28 29 30    │ │    31 32 33 34 35 36 37 │
+  ╰───────────╮ 38 39 40 41 │ │ 42 43 44 45 ╭───────────╯
+              ╰─────────────╯ ╰─────────────╯            */
+
+// navigation
+COMBO(esc1,   &kp ESC,       0  1,    40)
+COMBO(bspc,   &kp BSPC,     14 15,    40)
+COMBO(del,    &kp DEL,      15 16,    40)
+COMBO(esc2,   &kp ESC,      19 20,    40)
+COMBO(ret,    &kp RET,      20 21,    40)
+
+// signs
+COMBO(minus,  &kp KP_MINUS,  8  9,    40)
+COMBO(under,  &kp UNDER,     7  8  9, 40)
+COMBO(plus,   &kp KP_PLUS,   7  8,    40)
+COMBO(equal,  &kp EQUAL,     7  9,    40)
+COMBO(grave,  &kp GRAVE,    13 14,    40)
+COMBO(tilde,  &kp TILDE,    13 15,    40)
+COMBO(bslh,   &kp BSLH,     21 22,    40)
+COMBO(pipe,   &kp PIPE,     20 22,    40)
+
+// parens and brackets
+COMBO(lpar,   &kp LPAR,     26 27,    40)
+COMBO(rpar,   &kp RPAR,     34 35,    40)
+COMBO(lbkt,   &kp LBKT,     27 28,    40)
+COMBO(rbkt,   &kp RBKT,     33 34,    40)
+COMBO(lbrc,   &kp LBRC,     26 28,    40)
+COMBO(rbrc,   &kp RBRC,     33 35,    40)
+COMBO(lt,     &kp LT,       26 27 28, 40)
+COMBO(gt,     &kp GT,       33 34 35, 40)
+
+// ctrl shortcuts
+COMBO(ctrl_u, &kp LC(U),     8 19,    40)
+
+// vim
+COMBO(vim_wa, &vim_wa,      28 14,    40)
+COMBO(vim_qa, &vim_qa,      28 15,    40)
+
+// caps word
+COMBO(capswd, &caps_word,   24 37,    50)
+
+    };
+};
+
