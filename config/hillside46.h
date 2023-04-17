@@ -2,6 +2,8 @@
 
 #define A_C_D LA(LC(DEL))
 
+#define MIRYOKU_CLIPBOARD_MAC
+
 #if defined (MIRYOKU_CLIPBOARD_FUN)
   #define U_RDO &kp K_AGAIN
   #define U_PST &kp K_PASTE
