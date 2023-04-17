@@ -71,7 +71,7 @@
 &none  &lt NAV_L ESC  &kp RET  &lt FN_L TAB  &lt NUM_L BSPC  &kp SPACE  &lt SYM_L DEL  &none
             >;
         };
-        
+
         num_layer {
             bindings = <
 &none     &kp KP_DIVIDE    &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS                  &none  &none      &none  &none  &none  &none

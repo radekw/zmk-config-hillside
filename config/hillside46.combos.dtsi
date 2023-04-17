@@ -3,9 +3,8 @@
             timeout-ms = <TERM>; \
             bindings = <BINDINGS>; \
             key-positions = <KEYPOS>; \
-            layers = <0 1>; \
+            layers = <0>; \
         };
-
 
 / {
     combos {
