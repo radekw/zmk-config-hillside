@@ -50,8 +50,8 @@ COMBO(gt,     &kp GT,       33 34 35, 40)
 COMBO(ctrl_u, &kp LC(U),     8 19,    40)
 
 // vim
-COMBO(vim_wa, &vim_wa,      28 14,    40)
-COMBO(vim_qa, &vim_qa,      28 15,    40)
+COMBO(vim_wa, &vim_wa,      28  2,    40)
+COMBO(vim_qa, &vim_qa,      28  3,    40)
 
 // caps word
 COMBO(capswd, &caps_word,   24 37,    50)
