@@ -25,7 +25,7 @@ COMBO(del,    &kp DEL,      15 16,    40)
 COMBO(esc2,   &kp ESC,      19 20,    40)
 COMBO(ret,    &kp RET,      20 21,    40)
 
-// signs
+// symbols
 COMBO(minus,  &kp KP_MINUS,  8  9,    40)
 COMBO(under,  &kp UNDER,     7  8  9, 40)
 COMBO(plus,   &kp KP_PLUS,   7  8,    40)
