@@ -94,7 +94,7 @@
 
         nav_layer {
             bindings = <
-&none      &kp LG(Q)  &kp UP     &kp TAB    &kp LGUI   &kp LG(T)                &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &none      &kp PSCRN
+&LG(TAB)   &kp LG(Q)  &kp UP     &kp TAB    &kp LGUI   &kp LG(T)                &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &none      &kp PSCRN
 &none      &kp LEFT   &kp DOWN   &kp RIGHT  &kp LG(F)  &kp LG(G)                &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none      &kp A_C_D
 &kp LSHFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp U_RDO  &none  &none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp U_RDO  &kp RSHFT
 

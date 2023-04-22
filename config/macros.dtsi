@@ -7,7 +7,7 @@
             bindings = <&kp COLON &kp Q &kp A &kp RET>;
         )
         ZMK_MACRO(vim_xa,
-            bindings = <&kp COLON &kp Q &kp X &kp RET>;
+            bindings = <&kp COLON &kp X &kp A &kp RET>;
         )
     };
 };
