@@ -64,11 +64,11 @@
 
         default_layer {
             bindings = <
-&kp TAB    &hm LGUI Q   &kp W  &kp E  &kp R  &kp T                &kp Y  &kp U  &kp I      &kp O    &kp P           &hm LALT BSLH
+&kp TAB    &kp Q        &kp W  &kp E  &kp R  &kp T                &kp Y  &kp U  &kp I      &kp O    &kp P           &kp BSLH
 &kp BSPC   &kp A        &kp S  &kp D  &kp F  &kp G                &kp H  &kp J  &kp K      &kp L    &kp SEMI        &kp SQT
 &kp LSHFT  &hm LCTRL Z  &kp X  &kp C  &kp V  &kp B  &none  &none  &kp N  &kp M  &kp COMMA  &kp DOT  &hm RCTRL FSLH  &mt RSHFT RET
 
-&none  &lt NAV_L ESC  &kp RET  &lt NUM_L TAB  &lt SYM_L BSPC  &kp SPACE  &lt FN_L DEL  &none
+&kp LGUI  &lt NAV_L ESC  &kp RET  &lt NUM_L TAB  &lt SYM_L BSPC  &kp SPACE  &lt FN_L DEL  &kp LALT
             >;
         };
 
@@ -78,7 +78,7 @@
 &kp BSPC  &kp LGUI  &kp LALT  &kp LCTL  &kp LSFT  &none                  &kp DOT    &kp N4  &kp N5  &kp N6  &kp ASTRK  &kp FSLH
 &none     &none     &none     &none     &none     &none   &none  &none   &kp N0     &kp N1  &kp N2  &kp N3  &kp N0     &kp EQUAL
 
-&none  &trans  &trans  &trans  &trans  &trans  &trans  &none
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -88,7 +88,7 @@
 &kp BSPC  &none  &kp DLLR  &kp PRCNT  &kp CARET  &none                   &none  &none  &none  &none  &none  &none
 &none     &none  &kp EXCL  &kp AT     &kp HASH   &none   &none   &none   &none  &none  &none  &none  &none  &none
 
-&none  &trans  &trans  &trans  &trans  &trans  &trans  &none
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -98,7 +98,7 @@
 &kp BSPC     &kp LGUI   &kp LALT   &kp LCTL   &kp LSFT   &none                    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none      &kp A_C_D
 &none        &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp U_RDO  &none  &none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp U_RDO  &none
 
-&none  &trans  &trans  &trans  &trans  &trans  &trans  &none
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -108,7 +108,7 @@
 &none         &none         &kp F4  &kp F5  &kp F6  &kp F11                &none         &kp RSHFT     &kp RCTL      &kp RALT      &kp RGUI      &none
 &none         &none         &kp F1  &kp F2  &kp F3  &kp F10  &none  &none  &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none         &none
 
-&none  &trans  &trans  &trans  &trans  &trans  &trans  &none
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
