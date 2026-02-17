@@ -18,6 +18,12 @@
   ╰───────────╮ 38 39 40 41 │ │ 42 43 44 45 ╭───────────╯
               ╰─────────────╯ ╰─────────────╯            */
 
+// layers
+COMBO(num_l,  &mo NUM_L,    37 38,    40)
+COMBO(nav_l,  &mo NAV_L,    40 41,    40)
+COMBO(sym_l,  &mo SYM_L,    42 43,    40)
+COMBO(fn_l,   &mo FN_L,     45 46,    40)
+
 // navigation
 COMBO(esc1,   &kp ESC,       0  1,    40)
 COMBO(bspc,   &kp BSPC,     14 15,    40)
@@ -30,10 +36,12 @@ COMBO(minus,  &kp KP_MINUS,  8  9,    40)
 COMBO(under,  &kp UNDER,     7  8  9, 40)
 COMBO(plus,   &kp KP_PLUS,   7  8,    40)
 COMBO(equal,  &kp EQUAL,     7  9,    40)
+COMBO(bslh,   &kp BSLH,      9 10,    40)
+COMBO(pipe,   &kp PIPE,      8 10,    40)
 COMBO(grave,  &kp GRAVE,    13 14,    40)
 COMBO(tilde,  &kp TILDE,    13 15,    40)
-COMBO(bslh,   &kp BSLH,     21 22,    40)
-COMBO(pipe,   &kp PIPE,     20 22,    40)
+COMBO(sqt,    &kp SQT,      21 22,    40)
+COMBO(dqt,    &kp DQT,      20 22,    40)
 
 // parens and brackets
 COMBO(lpar,   &kp LPAR,     26 27,    40)
